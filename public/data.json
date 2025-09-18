@@ -1,0 +1,250 @@
+[
+    {
+        "productName":"Revana Tomato Sauce",
+        "productImage":"./images/products/tomato.png",
+        "amount":"800gm",
+        "productPrice":150,
+        "rate":4,
+        "type":"grocery"
+    },
+    {
+        "productName":"Revana Tomato Sauce",
+        "productImage":"./images/products/tea.png",
+        "amount":"800gm",
+        "productPrice":150,
+        "rate":4,
+          "type":"grocery"
+    },
+    {
+        "productName":"Revana Tomato Sauce",
+        "productImage":"./images/products/coffe.png",
+        "amount":"800gm",
+        "productPrice":150,
+        "rate":4,
+          "type":"grocery"
+    },
+    {
+        "productName":"Revana Tomato Sauce",
+        "productImage":"./images/products/chocolate.png",
+        "amount":"800gm",
+        "productPrice":150,
+        "rate":4,
+          "type":"grocery"
+    },
+    {
+        "productName":"Revana Tomato Sauce",
+        "productImage":"./images/products/tomato.png",
+        "amount":"800gm",
+        "productPrice":150,
+        "rate":4,
+          "type":"grocery"
+    },
+    {
+        "productName":"Revana Tomato Sauce",
+        "productImage":"./images/products/tomato.png",
+        "amount":"800gm",
+        "productPrice":150,
+        "rate":4,
+          "type":"grocery"
+    },
+    {
+        "productName":"Revana Tomato Sauce",
+        "productImage":"./images/products/tea.png",
+        "amount":"800gm",
+        "productPrice":150,
+        "rate":4,
+          "type":"grocery"
+    },
+    {
+        "productName":"Revana Tomato Sauce",
+        "productImage":"./images/products/coffe.png",
+        "amount":"800gm",
+        "productPrice":150,
+        "rate":4,
+          "type":"grocery"
+    },
+    {
+        "productName":"Revana Tomato Sauce",
+        "productImage":"./images/products/chocolate.png",
+        "amount":"800gm",
+        "productPrice":150,
+        "rate":4,
+          "type":"grocery"
+    },
+    {
+        "productName":"Holdin’ You Tight Hair Gel for Curly and Wavy Hair",
+        "productImage":"./images/products/shampoo.png",
+        "amount":"800gm",
+        "productPrice":220,
+        "rate":4,
+          "type":"Beauty"
+    },
+    {
+        "productName":"Holdin’ You Tight Hair Gel for Curly and Wavy Hair",
+        "productImage":"./images/products/brush.png",
+        "amount":"800gm",
+        "productPrice":220,
+        "rate":4,
+          "type":"Beauty"
+    },
+    {
+        "productName":"Holdin’ You Tight Hair Gel for Curly and Wavy Hair",
+        "productImage":"./images/products/shampoo.png",
+        "amount":"800gm",
+        "productPrice":220,
+        "rate":4,
+          "type":"Beauty"
+    },
+    {
+        "productName":"Holdin’ You Tight Hair Gel for Curly and Wavy Hair",
+        "productImage":"./images/products/brush.png",
+        "amount":"800gm",
+        "productPrice":220,
+        "rate":4,
+          "type":"Beauty"
+    },
+    {
+        "productName":"Holdin’ You Tight Hair Gel for Curly and Wavy Hair",
+        "productImage":"./images/products/shampoo.png",
+        "amount":"800gm",
+        "productPrice":220,
+        "rate":4,
+          "type":"Beauty"
+    },
+    {
+        "productName":"Holdin’ You Tight Hair Gel for Curly and Wavy Hair",
+        "productImage":"./images/products/brush.png",
+        "amount":"800gm",
+        "productPrice":220,
+        "rate":4,
+          "type":"Beauty"
+    },
+    {
+        "productName":"Holdin’ You Tight Hair Gel for Curly and Wavy Hair",
+        "productImage":"./images/products/shampoo.png",
+        "amount":"800gm",
+        "productPrice":220,
+        "rate":4,
+          "type":"Beauty"
+    },
+    {
+        "productName":"Holdin’ You Tight Hair Gel for Curly and Wavy Hair",
+        "productImage":"./images/products/brush.png",
+        "amount":"800gm",
+        "productPrice":220,
+        "rate":4,
+          "type":"Beauty"
+    },
+    {
+        "productName":"Holdin’ You Tight Hair Gel for Curly and Wavy Hair",
+        "productImage":"./images/products/shampoo.png",
+        "amount":"800gm",
+        "productPrice":220,
+        "rate":4,
+          "type":"Beauty"
+    },
+    {
+        "productName":"Holdin’ You Tight Hair Gel for Curly and Wavy Hair",
+        "productImage":"./images/products/brush.png",
+        "amount":"800gm",
+        "productPrice":220,
+        "rate":4,
+          "type":"Beauty"
+    },
+    {
+        "productName":"Ojuy Shower Gel Strawberry",
+        "productImage":"./images/products/cleaning.png",
+        "amount":"800gm",
+        "productPrice":220,
+        "rate":4,
+          "type":"cleaning"
+    },
+    {
+        "productName":"Ojuy Shower Gel Strawberry",
+        "productImage":"./images/products/cleaning2.png",
+        "amount":"800gm",
+        "productPrice":220,
+        "rate":4,
+          "type":"cleaning"
+    },
+    {
+        "productName":"Ojuy Shower Gel Strawberry",
+        "productImage":"./images/products/cleaning.png",
+        "amount":"800gm",
+        "productPrice":220,
+        "rate":4,
+          "type":"cleaning"
+    },
+    {
+        "productName":"Ojuy Shower Gel Strawberry",
+        "productImage":"./images/products/cleaning2.png",
+        "amount":"800gm",
+        "productPrice":220,
+        "rate":4,
+          "type":"cleaning"
+    },
+    {
+        "productName":"Ojuy Shower Gel Strawberry",
+        "productImage":"./images/products/cleaning.png",
+        "amount":"800gm",
+        "productPrice":220,
+        "rate":4,
+          "type":"cleaning"
+    },
+    {
+        "productName":"Ojuy Shower Gel Strawberry",
+        "productImage":"./images/products/cleaning2.png",
+        "amount":"800gm",
+        "productPrice":220,
+        "rate":4,
+          "type":"cleaning"
+    },
+    {
+        "productName":"Ojuy Shower Gel Strawberry",
+        "productImage":"./images/products/cleaning.png",
+        "amount":"800gm",
+        "productPrice":220,
+        "rate":4,
+          "type":"cleaning"
+    },
+    {
+        "productName":"Ojuy Shower Gel Strawberry",
+        "productImage":"./images/products/cleaning2.png",
+        "amount":"800gm",
+        "productPrice":220,
+        "rate":4,
+          "type":"cleaning"
+    },
+    {
+        "productName":"Ojuy Shower Gel Strawberry",
+        "productImage":"./images/products/cleaning.png",
+        "amount":"800gm",
+        "productPrice":220,
+        "rate":4,
+          "type":"cleaning"
+    },
+    {
+        "productName":"Ojuy Shower Gel Strawberry",
+        "productImage":"./images/products/cleaning2.png",
+        "amount":"800gm",
+        "productPrice":220,
+        "rate":4,
+          "type":"cleaning"
+    },
+    {
+        "productName":"Ojuy Shower Gel Strawberry",
+        "productImage":"./images/products/cleaning.png",
+        "amount":"800gm",
+        "productPrice":220,
+        "rate":4,
+          "type":"cleaning"
+    },
+    {
+        "productName":"Ojuy Shower Gel Strawberry",
+        "productImage":"./images/products/cleaning2.png",
+        "amount":"800gm",
+        "productPrice":220,
+        "rate":4,
+          "type":"cleaning"
+    }
+]

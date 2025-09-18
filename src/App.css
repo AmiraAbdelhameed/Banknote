@@ -1,0 +1,43 @@
+@import url('https://fonts.googleapis.com/css2?family=Radley:ital@0;1&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Dela+Gothic+One&family=Radley:ital@0;1&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Cairo:wght@200..1000&family=DM+Serif+Text:ital@0;1&family=Dela+Gothic+One&family=Radley:ital@0;1&display=swap');
+@import "tailwindcss";
+@import 'swiper/css';
+@layer base {
+  * {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+    font-family: "Radley", serif;
+  }
+}
+
+@theme {
+  --color-primary:#E2C774 ;
+  --color-primary-bold: #BA9648 ;
+  --color-secondary:#FBF3D9 ;
+  --color-dark: white ;
+  --color-light:#FFDEDE ;
+  --color-borders: #C5C5C3 ;
+  --color-header:#004333 ;
+  --color-class: #FFFFFF73 ;
+  --color-price: #FF6606 ;
+  --font-heroHeader: "Radley", serif;
+  --font-price: "Cairo", sans-serif;;
+
+}
+@custom-variant dark (&:where(.dark, .dark *));
+
+
+.section-continer{
+  
+  @apply  md:px-[108px] mx-auto
+  
+}
+.secondNavbar-buttons{
+  @apply flex items-center gap-1 py-3 px-4 border-borders border-2 rounded-[4px]
+}
+ .box {
+ @apply w-[60px] h-full top-0 border-solid border-l-[61px] border-t-0 border-r-0 border-b-[63px] border-l-transparent border-r-primary-bold border-b-primary-bold bg-secondary absolute left-0
+    }

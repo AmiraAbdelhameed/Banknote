@@ -3,7 +3,7 @@ import React from 'react'
 const Sales = () => {
   return (
     <>
-      <div className='relative' >
+      <div className='relative hidden lg:block' >
         <figure className='relative' >
         <img src="./images/heroSection/sales.png" alt="" srcset="" className='rounded-[8px]' />
         <img src="./images/heroSection/salesWord.png" alt="" srcset="" className='absolute top-4 left-1/3 z-1 ' />

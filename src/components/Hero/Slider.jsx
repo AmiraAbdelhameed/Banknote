@@ -1,6 +1,8 @@
 import React,{useState} from 'react'
 import { Swiper, SwiperSlide } from 'swiper/react';
 import { Navigation, Pagination } from 'swiper/modules';
+import { Carousel } from 'primereact/carousel';
+
 const Slider = () => {
   let images=[
     './images/heroSection/slider/slider1.jpg',
@@ -29,34 +31,30 @@ const Slider = () => {
   };
   return (
     <>
-    <div className='relative overflow-hidden'>
+    <div className='relative overflow-hidden '>
 
-    <figure className=''>
+    <figure className='overflow-hidden'>
      <img src="./images/heroSection/background.png" alt="" srcset=""  />
     </figure>
     <div className="absolute top-0">
-        <img src="./images/heroSection/offer.png" alt="" srcset="" />
+        <img src="./images/heroSection/offer.png" alt="" srcset=""  className='z-10'/>
     </div>
-    {/* <div className="images absolute top-1/4  w-11 h-3 flex gap-4 justify-between items-center ">
-      {images.map((image , index)=>(
-        <img src={image} alt="image"  key={index} />
-      ))}
-    </div> */}
-
-          
-          {/* Display current image */}
-       <div className="absolute top-1/4 w-full flex justify-center items-center gap-4">
-          {images.map((image, index) => (
-            <img 
-              key={index}
-              src={image} 
-              alt={`gallery image ${index + 1}`} 
-              className="w-1/5 h-auto" 
-            />
-          ))}
-        </div>
-       
-          
+       <div className="images absolute top-[100px]   flex  overflow-hidden ">
+          <Carousel 
+          value={images}
+          circular
+          // showNavigators={true}
+          // showIndicators={true}
+          numScroll={1} 
+          numVisible={5}
+          autoplayInterval={3000}
+          itemTemplate={(item)=>(
+            <>
+            <img src={item}  alt='image' className='pl-4 rounded-[93px] xl:h-[] h-[200px] w-[200px] object-cover'/>
+            </>
+          )}
+          />
+          </div>
         </div>
   
 

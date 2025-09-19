@@ -11,7 +11,6 @@ const StarRating = ({ rating , size='16px' }) => {
         className={`text-[${size}]   ${i <= rating ? 'text-yellow-400 ' : 'text-gray-400'}`}
       >
         <FaStar />
-        {/* &#9733; */}
       </span>
     );
   }

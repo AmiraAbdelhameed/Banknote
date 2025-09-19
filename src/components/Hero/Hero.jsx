@@ -7,8 +7,8 @@ const Hero = () => {
   return (
     <>
     <div className="bg-secondary ">
-      <div className="container section-continer py-8 min-h-0 lg:min-h-[80vh] grid grid-rows-[1fr_1fr] xl:grid-rows-[3fr_1fr] gap-4 ">
-<div className="main-content grid grid-cols-[3fr_1fr] ">
+      <div className="container section-continer py-8  grid  gap-4 ">
+<div className="main-content grid grid-cols-1 lg:grid-cols-[2fr_1fr] lg:grid-cols-[3fr_1fr] ">
     <Slider />
     <Sales />
 </div>

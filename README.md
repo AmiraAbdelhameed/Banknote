@@ -2,7 +2,7 @@
 
 ## For Live demo you can access the link below 
 
-    https://banknotetask.vercel.app/
+  https://banknote.vercel.app/
 
 ## Steps to Run the Project Locally
 

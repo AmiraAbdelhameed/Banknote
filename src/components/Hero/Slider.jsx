@@ -36,7 +36,7 @@ const Slider = () => {
 
   
     <Carousel
-        // autoPlay
+        autoPlay
         infiniteLoop
         interval={3000}
         showStatus={false}

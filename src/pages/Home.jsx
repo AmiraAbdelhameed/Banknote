@@ -8,10 +8,12 @@ import BeautySupplies from '../components/BeautySupplies/BeautySupplies'
 import FurnitureSupplies from '../components/FurnitureSupplies/FurnitureSupplies'
 import CleaningSupplies from '../components/CleaningSupplies/CleaningSupplies'
 import ProductsWithDiscounts from '../components/ProductsWithDiscounts/ProductsWithDiscounts'
+import LiveChatIcon from '../components/Hero/LiveChatIcon'
 
 const Home = () => {
   return (
     <>
+    
       <Hero />
       <Grocery />
       <ProductsWithDiscounts /> 
@@ -21,6 +23,7 @@ const Home = () => {
       <Beauty />
       <CleaningSupplies />
       <Cleaning />
+      <LiveChatIcon />
     </>
   )
 }

@@ -19,7 +19,7 @@ const BeautySupplies = () => {
                 <h2 className='text-2xl py-8'>Beauty </h2>
                      <button className='text-gray-500 border-2 border-gray-500 py-1 px-2 '>Shop All</button>
             </div>
-             <div className='flex flex-wrap items-center gap-2 justify-between'>
+             <div className='flex flex-wrap items-center gap-2 justify-center lg:justify-between'>
       {categories.filter((c)=>c.type=="Beauty").map((category)=>(
             <CategoryCard image={category.image} title={category.title} />
                   ))}

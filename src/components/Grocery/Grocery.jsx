@@ -24,7 +24,7 @@ const Grocery = () => {
                         <button className='border-2 border-primary-bold p-1 text-gray-500 text-2xl rounded-[4px]'><IoIosArrowForward /></button>
                     </div>
                 </div>
-                <div className="cards flex flex-wrap justify-between items-center gap-4">
+                <div className="cards flex flex-wrap justify-center lg:justify-between items-center gap-4">
                     {products.filter((p)=>(p.type=='grocery')).slice(0,6).map((product) => (
                         <ProductCard name={product.productName} image={product.productImage} amount={product.amount}
                             price={product.productPrice} rate={product.rate} type={product.type}

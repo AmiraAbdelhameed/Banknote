@@ -13,7 +13,7 @@ const Categories = () => {
     ]
   return (
     <>
-    <div className="images flex justify-between gap-3 flex-wrap">
+    <div className="images flex justify-center lg:justify-between gap-3 flex-wrap">
     {categories.map((c)=>(
         <img src={c} />
     ))}

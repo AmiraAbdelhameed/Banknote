@@ -2,6 +2,7 @@ import React from 'react'
 import Slider from './Slider'
 import Sales from './Sales'
 import Categories from './Categories'
+import LiveChatIcon from './LiveChatIcon'
 
 const Hero = () => {
   return (
@@ -18,6 +19,7 @@ const Hero = () => {
 
       </div>
     </div>
+   
     </>
   )
 }

@@ -16,10 +16,9 @@ const ProductsWithDiscounts = () => {
     return (
         <>
             <div className="container section-continer pt-16 ">
-                <div className="title flex items-center justify-between">
+                <div className="title flex items-center justify-between flex-wrap">
                     <h2 className='text-2xl py-8'>Products With Discounts</h2>
                     <Timer />
-                    {/* <button className='text-gray-500 border-2 border-gray-500 py-1 px-2 '>Timer </button> */}
                 </div>
                 <div className="content grid grid-cols-[1fr] lg:grid-cols-[1fr_1fr_1fr] gap-4 border-2 border-primary-bold rounded-[4px] p-6">
                     <div className='discount-col flex flex-col gap-4'>

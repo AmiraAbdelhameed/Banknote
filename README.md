@@ -28,4 +28,4 @@
     Axios
     Zustand 
 
-(./images/readme/herosection.png)
+![](./images/readme/herosection.png)

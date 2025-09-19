@@ -87,7 +87,7 @@ const Footer = () => {
                     </div>
                 </div>
                 {/* lower footer */}
-                <div className="lower border-t-2 border-white pb-16 flex justify-between items-center">
+                <div className="lower border-t-2 border-white pb-16 flex justify-between items-center flex-wrap">
                     <div className="follow flex gap-4 pt-8 items-center">
                         <h4>Follow us</h4>
                         <ul className='flex gap-4'>
@@ -105,7 +105,7 @@ const Footer = () => {
                             </li>
                         </ul>
                     </div>
-                    <div className="payment flex gap-4 pt-8 items-center">
+                    <div className="payment flex gap-2 md:gap-4 pt-8 items-center">
                         <h4>Payment Accepts:</h4>
                         <ul className='flex gap-4'>
                             <li><img src="./images/footer/credit-card.png" alt="" srcset="" /></li>

@@ -1,19 +1,7 @@
-// import React, { useState } from 'react'
-
-// const Timer = () => {
-//     let {timer , setTimer}=useState(0)
-//   return (
-//     <>
-      
-//     </>
-//   )
-// }
-
-// export default Timer
 import React, { useEffect, useState } from "react";
 
 const Timer = () => {
-  // 60 days in seconds
+
   const initialTime = 60 * 24 * 60 * 60; 
   const [timeLeft, setTimeLeft] = useState(initialTime);
 
@@ -27,7 +15,7 @@ const Timer = () => {
     return () => clearInterval(timer);
   }, [timeLeft]);
 
-  // Convert seconds -> days, hours, minutes, seconds
+
   const days = Math.floor(timeLeft / (24 * 60 * 60));
   const hours = Math.floor((timeLeft % (24 * 60 * 60)) / (60 * 60));
   const minutes = Math.floor((timeLeft % (60 * 60)) / 60);

@@ -29,3 +29,11 @@
     Zustand 
 
 ![](./images/Readme/herosection.png)
+#
+![](./images/Readme/features and timer.png)
+#
+![](./images/Readme/products.png)
+#
+![](./images/Readme/supplies.png)
+#
+![](./images/Readme/footer.png)

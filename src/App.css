@@ -25,7 +25,6 @@
   --color-price: #FF6606 ;
   --font-heroHeader: "Radley", serif;
   --font-price: "Cairo", sans-serif;;
-
 }
 @custom-variant dark (&:where(.dark, .dark *));
 

@@ -1,34 +1,16 @@
-import React from 'react'
+import React, { useEffect } from 'react'
 import CategoryCard from '../Cards/CategoryCard'
+import useDataStore from '../../zustand/store';
 
 const CleaningSupplies = () => {
-      let categories =[
-      {  
-        image:'./images/categories/Dinner Sets.png',
-        title:'Dinner Sets'
-    },
-      {  
-        image:'./images/categories/Hanging Fork Knife.png',
-        title:'Hanging Fork Knife'
-    },
-      {  
-        image:'./images/categories/StorageBoxes.png',
-        title:'Storage Boxes'
-    },
-      {  
-        image:'./images/categories/Dutch Oven.png',
-        title:'Dutch Oven'
-    },
-      {  
-        image:'./images/categories/Kitchen Items.png',
-        title:'Kitchen Items'
-    },
-      {  
-        image:'./images/categories/Drinkware.png',
-        title:'Drinkware '
-    },
+         const { categories, getCategories, loading, error } = useDataStore();
 
-    ]
+  useEffect(() => {
+    getCategories(); 
+  }, [getCategories]);
+  if (loading) return <p>Loading products...</p>;
+  if (error) return <p>Error: {error}</p>;
+
     return (
         <div className="container section-continer pt-16">
             <div className="title flex items-center justify-between">
@@ -37,7 +19,7 @@ const CleaningSupplies = () => {
                      <button className='text-gray-500 border-2 border-gray-500 py-1 px-2 '>Shop All</button>
             </div>
              <div className='flex flex-wrap items-center gap-2 justify-between'>
-      {categories.map((category)=>(
+      {categories.filter((c)=>c.type=="Beauty").map((category)=>(
             <CategoryCard image={category.image} title={category.title} />
                   ))}
     </div>

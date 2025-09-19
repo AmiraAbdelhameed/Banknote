@@ -1,5 +1,6 @@
-[
-    {
+{
+
+"products":[{
         "productName":"Revana Tomato Sauce",
         "productImage":"./images/products/tomato.png",
         "amount":"800gm",
@@ -72,7 +73,7 @@
           "type":"grocery"
     },
     {
-        "productName":"Holdin’ You Tight Hair Gel for Curly and Wavy Hair",
+        "productName":"Holdin’ You Tight Hair",
         "productImage":"./images/products/shampoo.png",
         "amount":"800gm",
         "productPrice":220,
@@ -80,7 +81,7 @@
           "type":"Beauty"
     },
     {
-        "productName":"Holdin’ You Tight Hair Gel for Curly and Wavy Hair",
+        "productName":"Holdin’ You Tight Hair ",
         "productImage":"./images/products/brush.png",
         "amount":"800gm",
         "productPrice":220,
@@ -88,7 +89,7 @@
           "type":"Beauty"
     },
     {
-        "productName":"Holdin’ You Tight Hair Gel for Curly and Wavy Hair",
+        "productName":"Holdin’ You Tight Hair",
         "productImage":"./images/products/shampoo.png",
         "amount":"800gm",
         "productPrice":220,
@@ -96,7 +97,7 @@
           "type":"Beauty"
     },
     {
-        "productName":"Holdin’ You Tight Hair Gel for Curly and Wavy Hair",
+        "productName":"Holdin’ You Tight Hair ",
         "productImage":"./images/products/brush.png",
         "amount":"800gm",
         "productPrice":220,
@@ -104,7 +105,7 @@
           "type":"Beauty"
     },
     {
-        "productName":"Holdin’ You Tight Hair Gel for Curly and Wavy Hair",
+        "productName":"Holdin’ You Tight Hair",
         "productImage":"./images/products/shampoo.png",
         "amount":"800gm",
         "productPrice":220,
@@ -112,7 +113,7 @@
           "type":"Beauty"
     },
     {
-        "productName":"Holdin’ You Tight Hair Gel for Curly and Wavy Hair",
+        "productName":"Holdin’ You Tight Hair ",
         "productImage":"./images/products/brush.png",
         "amount":"800gm",
         "productPrice":220,
@@ -120,7 +121,7 @@
           "type":"Beauty"
     },
     {
-        "productName":"Holdin’ You Tight Hair Gel for Curly and Wavy Hair",
+        "productName":"Holdin’ You Tight Hair ",
         "productImage":"./images/products/shampoo.png",
         "amount":"800gm",
         "productPrice":220,
@@ -128,7 +129,7 @@
           "type":"Beauty"
     },
     {
-        "productName":"Holdin’ You Tight Hair Gel for Curly and Wavy Hair",
+        "productName":"Holdin’ You Tight Hair",
         "productImage":"./images/products/brush.png",
         "amount":"800gm",
         "productPrice":220,
@@ -136,7 +137,7 @@
           "type":"Beauty"
     },
     {
-        "productName":"Holdin’ You Tight Hair Gel for Curly and Wavy Hair",
+        "productName":"Holdin’ You Tight Hair ",
         "productImage":"./images/products/shampoo.png",
         "amount":"800gm",
         "productPrice":220,
@@ -144,7 +145,7 @@
           "type":"Beauty"
     },
     {
-        "productName":"Holdin’ You Tight Hair Gel for Curly and Wavy Hair",
+        "productName":"Holdin’ You Tight Hair ",
         "productImage":"./images/products/brush.png",
         "amount":"800gm",
         "productPrice":220,
@@ -152,7 +153,7 @@
           "type":"Beauty"
     },
     {
-        "productName":"Ojuy Shower Gel Strawberry",
+        "productName":"Ojuy Shower Gel  ",
         "productImage":"./images/products/cleaning.png",
         "amount":"800gm",
         "productPrice":220,
@@ -160,7 +161,7 @@
           "type":"cleaning"
     },
     {
-        "productName":"Ojuy Shower Gel Strawberry",
+        "productName":"Ojuy Shower Gel  ",
         "productImage":"./images/products/cleaning2.png",
         "amount":"800gm",
         "productPrice":220,
@@ -168,7 +169,7 @@
           "type":"cleaning"
     },
     {
-        "productName":"Ojuy Shower Gel Strawberry",
+        "productName":"Ojuy Shower Gel ",
         "productImage":"./images/products/cleaning.png",
         "amount":"800gm",
         "productPrice":220,
@@ -176,7 +177,7 @@
           "type":"cleaning"
     },
     {
-        "productName":"Ojuy Shower Gel Strawberry",
+        "productName":"Ojuy Shower Gel ",
         "productImage":"./images/products/cleaning2.png",
         "amount":"800gm",
         "productPrice":220,
@@ -184,7 +185,7 @@
           "type":"cleaning"
     },
     {
-        "productName":"Ojuy Shower Gel Strawberry",
+        "productName":"Ojuy Shower Gel ",
         "productImage":"./images/products/cleaning.png",
         "amount":"800gm",
         "productPrice":220,
@@ -192,7 +193,7 @@
           "type":"cleaning"
     },
     {
-        "productName":"Ojuy Shower Gel Strawberry",
+        "productName":"Ojuy Shower Gel ",
         "productImage":"./images/products/cleaning2.png",
         "amount":"800gm",
         "productPrice":220,
@@ -200,7 +201,7 @@
           "type":"cleaning"
     },
     {
-        "productName":"Ojuy Shower Gel Strawberry",
+        "productName":"Ojuy Shower Gel ",
         "productImage":"./images/products/cleaning.png",
         "amount":"800gm",
         "productPrice":220,
@@ -208,7 +209,7 @@
           "type":"cleaning"
     },
     {
-        "productName":"Ojuy Shower Gel Strawberry",
+        "productName":"Ojuy Shower Gel ",
         "productImage":"./images/products/cleaning2.png",
         "amount":"800gm",
         "productPrice":220,
@@ -216,7 +217,7 @@
           "type":"cleaning"
     },
     {
-        "productName":"Ojuy Shower Gel Strawberry",
+        "productName":"Ojuy Shower Gel ",
         "productImage":"./images/products/cleaning.png",
         "amount":"800gm",
         "productPrice":220,
@@ -224,7 +225,7 @@
           "type":"cleaning"
     },
     {
-        "productName":"Ojuy Shower Gel Strawberry",
+        "productName":"Ojuy Shower Gel ",
         "productImage":"./images/products/cleaning2.png",
         "amount":"800gm",
         "productPrice":220,
@@ -232,7 +233,7 @@
           "type":"cleaning"
     },
     {
-        "productName":"Ojuy Shower Gel Strawberry",
+        "productName":"Ojuy Shower Gel ",
         "productImage":"./images/products/cleaning.png",
         "amount":"800gm",
         "productPrice":220,
@@ -240,11 +241,102 @@
           "type":"cleaning"
     },
     {
-        "productName":"Ojuy Shower Gel Strawberry",
+        "productName":"Ojuy Shower Gel ",
         "productImage":"./images/products/cleaning2.png",
         "amount":"800gm",
         "productPrice":220,
         "rate":4,
           "type":"cleaning"
+    }],
+    "categories":[
+{     "type":"Household",
+        "image": "./images/categories/Dinner Sets.png ",
+        "title": "Dinner Sets "
+    },
+      {  
+        "type":"Household",
+        "image": "./images/categories/Hanging Fork Knife.png ",
+        "title": "Hanging Fork Knife "
+    },
+      {  
+        "type":"Household",
+        "image": "./images/categories/StorageBoxes.png ",
+        "title": "Storage Boxes "
+    },
+      {  
+        "type":"Household",
+        "image": "./images/categories/Dutch Oven.png ",
+        "title": "Dutch Oven "
+    },
+      {  
+        "type":"Household",
+        "image": "./images/categories/Kitchen Items.png ",
+        "title": "Kitchen Items "
+    },
+      {  
+        "type":"Household",
+        "image": "./images/categories/Drinkware.png ",
+        "title": "Drinkware  "
+    },
+{     "type":"Beauty",
+        "image": "./images/categories/Skin  Care.png ",
+        "title": "Skin  Care"
+    },
+      {  
+        "type":"Beauty",
+        "image": "./images/categories/Perfumes.png ",
+        "title": "Perfumes "
+    },
+      {  
+        "type":"Beauty",
+        "image": "./images/categories/Hair Care.png ",
+        "title": "Hair Care "
+    },
+      {  
+        "type":"Beauty",
+        "image": "./images/categories/Body Care.png ",
+        "title": "Body Care"
+    },
+      {  
+        "type":"Beauty",
+        "image": "./images/categories/Health & Personal Care.png ",
+        "title": "Health & Personal Care"
+    },
+      {
+        "type":"Beauty",
+        "image": "./images/categories/Natural & Essential.png ",
+        "title": "Natural & Essential    "
+    },
+{     "type":"Furniture",
+        "image": "./images/categories/Coffee Table.png ",
+        "title": "Coffee Table"
+    },
+      {  
+        "type":"Furniture",
+        "image": "./images/categories/Sofa.png ",
+        "title": "Sofa "
+    },
+      {  
+        "type":"Furniture",
+        "image": "./images/categories/TV Tables.png ",
+        "title": "TV Tables"
+    },
+      {  
+        "type":"Furniture",
+        "image": "./images/categories/Bedroom.png ",
+        "title": "Bedroom"
+    },
+      {  
+        "type":"Furniture",
+        "image": "./images/categories/Desks & Chairs.png ",
+        "title": "Desks & Chairs"
+    },
+      {
+        "type":"Furniture",
+        "image": "./images/categories/Wardrobe.png ",
+        "title": "Wardrobe"
     }
-]
+
+    ]
+   
+  }

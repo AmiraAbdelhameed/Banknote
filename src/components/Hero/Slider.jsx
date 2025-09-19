@@ -34,37 +34,9 @@ const Slider = () => {
       </div>
 <div className="swiper">
 
-       {/* <Swiper
-      modules={[Pagination, Autoplay]} 
-      pagination={{ clickable: true }}
-      autoplay={{
-        delay: 3000, 
-        disableOnInteraction: false, 
-      }}
-      centeredSlides={true}
-      loop={true}
-      slidesPerView={5}
-      spaceBetween={3}
-       allowTouchMove={true}  
-      breakpoints={{
-        320: { slidesPerView: 2 },
-        640: { slidesPerView: 3 },
-        1024: { slidesPerView: 5 },
-      }}
-      className="w-full max-w-5xl mx-auto overflow-hidden"
-    >
-      {images.map((img, index) => (
-        <SwiperSlide key={index} className="flex justify-center">
-          <img
-            src={img}
-            // className="rounded-[110px] object-cover mt-7 w-[70px] h-[25px]"
-            className="rounded-[110px] object-cover mt-7 w-[170px] h-[255px]"
-          />
-        </SwiperSlide>
-      ))}
-    </Swiper> */}
+  
     <Carousel
-        autoPlay
+        // autoPlay
         infiniteLoop
         interval={3000}
         showStatus={false}

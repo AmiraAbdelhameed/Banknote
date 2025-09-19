@@ -1,60 +1,19 @@
-import React from 'react'
+import React, { useEffect } from 'react'
 import ProductCard from '../Cards/ProductCard'
 import { IoIosArrowForward } from "react-icons/io";
 import { IoIosArrowBack } from "react-icons/io";
+import useDataStore from '../../zustand/store';
 
 const Grocery = () => {
-    let products = [
-        {
-            productName: "Revana Tomato Sauce",
-            productImage: "./images/products/tomato.png",
-            amount: "800gm",
-            productPrice: 150,
-            rate: 4,
-            type: "grocery"
-        },
-        {
-            productName: "Revana Tomato Sauce",
-            productImage: "./images/products/tomato.png",
-            amount: "800gm",
-            productPrice: 150,
-            rate: 4,
-            type: "grocery"
-        },
-        {
-            productName: "Revana Tomato Sauce",
-            productImage: "./images/products/tomato.png",
-            amount: "800gm",
-            productPrice: 150,
-            rate: 4,
-            type: "grocery"
-        },
-        {
-            productName: "Revana Tomato Sauce",
-            productImage: "./images/products/tomato.png",
-            amount: "800gm",
-            productPrice: 150,
-            rate: 4,
-            type: "grocery"
-        },
-        {
-            productName: "Revana Tomato Sauce",
-            productImage: "./images/products/tomato.png",
-            amount: "800gm",
-            productPrice: 150,
-            rate: 4,
-            type: "grocery"
-        },
-        {
-            productName: "Revana Tomato Sauce",
-            productImage: "./images/products/tomato.png",
-            amount: "800gm",
-            productPrice: 150,
-            rate: 4,
-            type: "grocery"
-        },
+      const { products, getProducts, loading, error } = useDataStore();
 
-    ]
+  useEffect(() => {
+    getProducts(); 
+  }, [getProducts]);
+
+  if (loading) return <p>Loading products...</p>;
+  if (error) return <p>Error: {error}</p>;
+
     return (
         <>
             <div className="container section-continer pt-16">
@@ -66,7 +25,7 @@ const Grocery = () => {
                     </div>
                 </div>
                 <div className="cards flex flex-wrap justify-between items-center gap-4">
-                    {products.map((product) => (
+                    {products.filter((p)=>(p.type=='grocery')).slice(0,6).map((product) => (
                         <ProductCard name={product.productName} image={product.productImage} amount={product.amount}
                             price={product.productPrice} rate={product.rate} type={product.type}
                         />

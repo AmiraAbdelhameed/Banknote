@@ -30,7 +30,7 @@
 
 ![](./images/Readme/herosection.png)
 #
-![](./images/Readme/features and timer.png)
+![](./images/Readme/featuresandtimer.png)
 #
 ![](./images/Readme/products.png)
 #

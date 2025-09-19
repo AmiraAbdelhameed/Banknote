@@ -40,3 +40,6 @@
  .box {
  @apply w-[60px] h-full top-0 border-solid border-l-[61px] border-t-0 border-r-0 border-b-[63px] border-l-transparent border-r-primary-bold border-b-primary-bold bg-secondary absolute left-0
     }
+    .timer-style {
+      @apply bg-primary-bold py-2 px-4 rounded-[4px] font-price text-xl
+    }

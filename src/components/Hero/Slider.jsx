@@ -32,33 +32,33 @@ const Slider = () => {
           className="z-10 relative"
         />
       </div>
-<div className="swiper">
+      <div className="swiper">
 
-  
-    <Carousel
-        autoPlay
-        infiniteLoop
-        interval={3000}
-        showStatus={false}
-        showThumbs={false}
-        showArrows={false}
-        emulateTouch
-        centerMode
-        centerSlidePercentage={24} 
-        className="w-full max-w-5xl mx-auto "
 
-      >
-        {images.map((img, index) => (
-          <div key={index} className="flex justify-center px-2 py-12">
-            <img
-              src={img}
-              alt={`slider-${index}`}
-              className="rounded-[93px] object-cover w-[170px] h-[255px] ml-5"
-            />
-          </div>
-        ))}
-      </Carousel>
+        <Carousel
+          autoPlay
+          infiniteLoop
+          interval={3000}
+          showStatus={false}
+          showThumbs={false}
+          showArrows={false}
+          emulateTouch
+          centerMode
+          centerSlidePercentage={24}
+          className="w-full max-w-5xl mx-auto "
+
+        >
+          {images.map((img, index) => (
+            <div key={index} className="flex justify-center px-2 py-12">
+              <img
+                src={img}
+                alt={`slider-${index}`}
+                className="rounded-[93px] object-cover w-[170px] h-[255px] ml-5"
+              />
             </div>
+          ))}
+        </Carousel>
+      </div>
     </div>
   );
 };

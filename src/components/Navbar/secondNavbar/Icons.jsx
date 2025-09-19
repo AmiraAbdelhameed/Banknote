@@ -8,20 +8,20 @@ const Icons = () => {
   return (
     <>
       <div className="account flex gap-2">
-        <button className='secondNavbar-buttons'> 
-            <IoPersonOutline />
-            Account
+        <button className='secondNavbar-buttons'>
+          <IoPersonOutline />
+          Account
         </button>
-        <button className='secondNavbar-buttons'> 
-            <BiRepost />
+        <button className='secondNavbar-buttons'>
+          <BiRepost />
         </button>
-        <button className='secondNavbar-buttons'> 
-            <FaRegHeart />
-            Wishlist
+        <button className='secondNavbar-buttons'>
+          <FaRegHeart />
+          Wishlist
         </button>
-        <button className='secondNavbar-buttons'> 
+        <button className='secondNavbar-buttons'>
           <IoCartOutline />
-            Cart
+          Cart
         </button>
       </div>
     </>

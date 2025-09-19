@@ -8,14 +8,14 @@ const SecondNavbar = () => {
     <>
       <div className="container section-continer flex  justify-between  items-center  ">
 
-          <img  src='./images/Logo.png' />
-    
+        <img src='./images/Logo.png' />
+
         <div className="content flex flex-5 justify-between flex-wrap gap-2  ">
           <div className="categories ">
-          <Categories />
+            <Categories />
           </div>
           <div className="search grow ">
-          <Search />
+            <Search />
           </div>
           <div className="icons  ml-4">
             <Icons />

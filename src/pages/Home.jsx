@@ -13,10 +13,10 @@ import LiveChatIcon from '../components/Hero/LiveChatIcon'
 const Home = () => {
   return (
     <>
-    
+
       <Hero />
       <Grocery />
-      <ProductsWithDiscounts /> 
+      <ProductsWithDiscounts />
       <HouseholdSupplies />
       <BeautySupplies />
       <FurnitureSupplies />

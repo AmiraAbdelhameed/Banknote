@@ -4,15 +4,15 @@ import useDataStore from '../../zustand/store';
 import Timer from './Timer';
 
 const ProductsWithDiscounts = () => {
-          const { products, getProducts, loading, error } = useDataStore();
-  
+    const { products, getProducts, loading, error } = useDataStore();
+
     useEffect(() => {
-      getProducts(); 
+        getProducts();
     }, [getProducts]);
-  
+
     if (loading) return <p>Loading products...</p>;
     if (error) return <p>Error: {error}</p>;
-  
+
     return (
         <>
             <div className="container section-continer pt-16 ">
@@ -27,14 +27,14 @@ const ProductsWithDiscounts = () => {
                         <img src="./images/discount/discount3.png" alt="" srcset="" />
                     </div>
                     <div className='flex flex-row gap-4 md:flex-col flex-wrap justify-center '>
-                        {products.filter((p)=>(p.type=='cleaning')).slice(0,3).map((product) => (
+                        {products.filter((p) => (p.type == 'cleaning')).slice(0, 3).map((product) => (
                             <DiscountCard name={product.productName} image={product.productImage} amount={product.amount}
                                 price={product.productPrice} rate={product.rate} type={product.type}
                             />
                         ))}
                     </div>
                     <div className='flex flex-row gap-4 md:flex-col flex-wrap justify-center '>
-                        {products.filter((p)=>(p.type=='cleaning')).slice(0,3).map((product) => (
+                        {products.filter((p) => (p.type == 'cleaning')).slice(0, 3).map((product) => (
                             <DiscountCard name={product.productName} image={product.productImage} amount={product.amount}
                                 price={product.productPrice} rate={product.rate} type={product.type}
                             />

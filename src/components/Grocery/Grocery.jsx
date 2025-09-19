@@ -5,14 +5,14 @@ import { IoIosArrowBack } from "react-icons/io";
 import useDataStore from '../../zustand/store';
 
 const Grocery = () => {
-      const { products, getProducts, loading, error } = useDataStore();
+    const { products, getProducts, loading, error } = useDataStore();
 
-  useEffect(() => {
-    getProducts(); 
-  }, [getProducts]);
+    useEffect(() => {
+        getProducts();
+    }, [getProducts]);
 
-  if (loading) return <p>Loading products...</p>;
-  if (error) return <p>Error: {error}</p>;
+    if (loading) return <p>Loading products...</p>;
+    if (error) return <p>Error: {error}</p>;
 
     return (
         <>
@@ -25,7 +25,7 @@ const Grocery = () => {
                     </div>
                 </div>
                 <div className="cards flex flex-wrap justify-center lg:justify-between items-center gap-4">
-                    {products.filter((p)=>(p.type=='grocery')).slice(0,6).map((product) => (
+                    {products.filter((p) => (p.type == 'grocery')).slice(0, 6).map((product) => (
                         <ProductCard name={product.productName} image={product.productImage} amount={product.amount}
                             price={product.productPrice} rate={product.rate} type={product.type}
                         />

@@ -5,11 +5,11 @@ const useDataStore = create((set) => ({
   products: [],
   loading: false,
   error: null,
-categories:[],
+  categories: [],
   getProducts: async () => {
-    set({ loading: true, error: null }); 
+    set({ loading: true, error: null });
     try {
-      const res = await axios.get("/data.json"); 
+      const res = await axios.get("/data.json");
       set({ products: res.data.products, loading: false });
     } catch (err) {
       set({ error: err.message, loading: false });
@@ -18,7 +18,7 @@ categories:[],
   getCategories: async () => {
     set({ loading: true, error: null });
     try {
-      const res = await axios.get("/data.json"); 
+      const res = await axios.get("/data.json");
       set({ categories: res.data.categories, loading: false });
     } catch (err) {
       set({ error: err.message, loading: false });

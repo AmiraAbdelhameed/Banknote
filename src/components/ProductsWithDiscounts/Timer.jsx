@@ -2,7 +2,7 @@ import React, { useEffect, useState } from "react";
 
 const Timer = () => {
 
-  const initialTime = 60 * 24 * 60 * 60; 
+  const initialTime = 60 * 24 * 60 * 60;
   const [timeLeft, setTimeLeft] = useState(initialTime);
 
   useEffect(() => {
